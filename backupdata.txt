@@ -1,0 +1,28 @@
+GID			HomoName		Type					Structure
+1         	Mcur1			Protein Coding			CCDC90
+2         	YLR283W			Protein Coding			CCDC90
+3         	Coa6			Protein Coding			CHCH
+4         	Put1			Dehydrogenase			NULL
+5         	ATP Synthase	ATP						NULL
+6         	Put2			Dehydrogenase			NULL
+7         	GCKR			Glucokinase Regulator	NULL
+8         	Swag			NULL					NULL
+
+
+
+
+
+SID	SName	Genome	GenDate	GenAccuracy	LatinName	ChromosomeNumber
+1         	Human	True	2003-04-14	99	Homo sapiens	46
+2         	Yeast	True	1997-01-01	NULL	Saccharomyces cerevisiae	32
+3         	Dog	True	2011-09-01	NULL	Canis lupus familiaris	78
+4         	Cat	True	2007-01-01	NULL	Felis catus	38
+5         	Chimpanzee	True	2005-09-01	NULL	Pan troglodytes	48
+6         	Chicken	True	2004-01-01	NULL	Gallus gallus	78
+7         	Zebrafish	True	2011-07-15	NULL	Danio rerio	NULL
+
+
+
+
+
+

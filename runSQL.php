@@ -1,0 +1,36 @@
+<html><head><title>Database Query Executer</title></head>
+<head>
+	<title>DBMS Final Project</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+<div id = "containerOne">
+	<h1 align = "center">Search Database</h1>
+	
+	<p align = "center"><a href="index.html" type = "submit" align = "center" ><b>HOME</b></a></p>		
+</div>
+
+<form id="containerSearch" action="runSQLMSSQL.php" method="post" align="center">
+
+	<select id="searchMenu" name = "searchMenu" required>
+		<option value="">Select An Option</option>
+		<option value="searchGenome">List All Genes In Genome </option>
+		<option value="species">List All Species With Specific Gene</option>
+		<option value="chromosome">List All Genes On A Chromosome</option>
+		<option value="sequence">Find Gene Sequence</option>
+		<option value="geneStructure">Select Genes With Similar Structure</option>
+		<option value="homologues">Find All Homologues</option>
+		<option value="gene">Find Gene</option>	
+	</select>
+	<?php include 'dropdown.php'; /// species drop down?>		
+	Search <input type="text" name="SQL" size=50 ><input class = "button" type="submit" value="Execute">
+   
+</form>
+
+<div id = "containerFooter">
+	<h2 align = "center">Zach Kinney and Steven Anderson</h2>
+</div>
+      
+</body></html>

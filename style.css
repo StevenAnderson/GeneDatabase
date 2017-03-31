@@ -1,0 +1,270 @@
+body
+{
+	background: url(exclusive-paper.png);
+	background-color: #303030;
+	margin: 0 0 100px;
+}
+html{
+	
+}
+
+h1
+{
+	font-family: arial;
+	font-size: 40px;
+	text-decoration: underline;
+	color: black;
+}
+
+hs
+{
+	font-family: arial;
+	font-size: 20px;
+
+}
+#containerOne
+{
+	background: url(3px-tile.png), linear-gradient(#012CE1 , white);
+	width:100%;
+	height:120px;
+	border: 10px ridge red;
+	color: #303030;
+	font-family: arial;
+	margin-bottom: 50px;
+	margin-left: -203px;
+	padding-left: 203px;
+	padding-bottom: 10px
+}
+
+#containerTwo
+{
+	background: url(exclusive-paper.png);
+	background-color: #303030;
+	border: 10px ridge url(exclusive-paper.png);
+	width: 100%;
+	margin:0 auto;
+	height: 60px;
+	font-family: arial;
+	padding-bottom: 50px;
+	margin-left: -203px;
+	padding-left: 203px;
+	position: absolute;
+	top: 0px;
+}
+
+#containerDisplayResults
+{
+	background-color:white;
+	width:26%;
+	height:20px;
+	border: 5px ridge red;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: arial;
+	padding-top: 3px;
+	letter-spacing: 2px;
+	padding-left: 10px;
+	overflow:auto;
+}
+	
+#containerAddGene
+{
+	background-color:white;
+	width: 90%;
+	min-height:30px;
+	overflow: hidden;
+	border: 5px ridge #012CE1;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: arial;
+	padding-top: 3px;
+	letter-spacing: 2px;
+	padding-left: 10px;
+}
+
+#containerAddSpecies
+{
+	background-color:white;
+	overflow: hidden;
+	width:85%;
+	min-height:50px;
+	border: 5px ridge #012CE1;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: arial;
+	padding-top: 3px;
+	letter-spacing: 2px;
+	padding-left: 10px;
+}
+	
+	
+#containerMenu
+{
+	background-color:white;
+	overflow:hidden;
+	width:30%;
+	min-height:20px;
+	border: 5px ridge red;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: arial;
+	padding-top: 3px;
+	letter-spacing: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	}
+	
+#containerSearch{
+	background-color:white;
+	width:85%;
+	min-height:20px;
+	border: 5px ridge #012CE1;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: arial;
+	padding-top: 3px;
+	letter-spacing: 2px;
+	padding-left: 10px;
+}
+
+.loginAlign{
+	background-color:white;
+	width:85%;
+	height:25px;
+	border: 5px ridge #012CE1;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: arial;
+	padding-top: 3px;
+	letter-spacing: 2px;
+	padding-left: 10px;
+}
+	
+h3{
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+
+table, th, td{
+	border-collapse: collapse;
+	border: 1px solid red;
+}
+
+#containerFooter
+{
+	background: url(3px-tile.png), linear-gradient(white , blue);
+	background-color: purple;
+	width:100%;
+	border: 10px ridge red;
+	position : fixed;
+    bottom : 0;
+    height : 100px;
+    margin-left: -203px;
+	padding-left: 203px;
+}
+.secondaryNav
+{
+	background: url(3px-tile.png), linear-gradient(white , blue);
+	background-color: purple;
+	width:100%;
+	border: 10px ridge red;
+	position : fixed;
+    bottom : 0;
+    height : 100px;
+    margin-left: -203px;
+	padding-left: 203px;
+	z-index:0;
+}
+
+#containerResults
+{
+	background: url(3px-tile.png), linear-gradient(white , white);
+	width:26%;
+	height:20px;
+	border: 5px ridge red;
+	color: #white;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: arial;
+	padding-top: 3px;
+
+	padding-left: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:1.5px 15px;
+                left:-8px;
+                border:2px solid #0F5AED;
+                background-color:#0F5AED;
+                color:#FCFCFC;
+}
+.button:hover  {
+                background-color:#FCFCFC;
+                color:#0F5AED;
+}
+
+
+
+/* added login styles 
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+and all after here-->>>*/
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
